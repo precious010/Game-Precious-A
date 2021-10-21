@@ -51,7 +51,7 @@ public RockPaperScissors(){
     myButton.setFocusable(false);
 
    l3= new JLabel();
-   l3.setText("You will be playing against a computer. Your options are Rock, Paper or Scissors.")  
+   l3.setText("You will be playing against a computer. Your options are Rock, Paper or Scissors.");  
    l3.setBounds(10,70,500,40);
    panel.add(l3);
   frame.setVisible(true);
