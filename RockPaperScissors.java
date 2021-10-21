@@ -13,17 +13,17 @@ import javax.swing.*;
 
 
 
-public class LaunchWindow implements ActionListener{
+public class RockPaperScissors implements ActionListener{
   private static JLabel l1;
   private static JLabel l2;
   private static JButton myButton;
   
 
-public LaunchWindow(){
+public RockPaperScissors(){
   
   JPanel panel = new JPanel();
   JFrame frame = new JFrame("Welcome");
-  frame.setSize(350,250);
+  frame.setSize(500,450);
   frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
   
    frame.add(panel);
@@ -38,14 +38,14 @@ public LaunchWindow(){
   
   
    l1= new JLabel();
-   User user1 = new User("player");
+   User user1 = new User();
    l1.setText("Hi "+ user1.getUsername());
    l1.setBounds(10,50,80,25);
    panel.add(l1);
 
    l2= new JLabel();
-   l2.setText("Welcome to Family Feud!\nIn this version of Family Feud, there are two levels and a death round.\nIn level 1 you will have three questions where you will be required to answer as specifically as possible.\n In level 2, you will have 4 questions and you will answer them just like in level 1\n **Note: The last question in level 2 is a bonus question and will decide if you make it to the death round");
-   l2.setBounds(10,60,90,100);
+   l2.setText("Welcome to Family Feud!In this version of Family Feud, there are two levels and a death round.");
+   l2.setBounds(10,20,400,400);
    panel.add(l2);
     myButton.setFocusable(false);
     
@@ -61,8 +61,8 @@ public LaunchWindow(){
 @Override
 public void actionPerformed(ActionEvent e){
  JLabel l1= new JLabel();
- User user1= new User("player");
- l1.setText("Hi "+ user1.getUsername());
+ //User user1= new User();
+ //l1.setText("Hi "+ user1.getUsername());
 
 }
 }
