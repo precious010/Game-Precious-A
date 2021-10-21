@@ -32,7 +32,7 @@ public RockPaperScissors(){
 
    myButton = new JButton("Next");
    myButton.setBackground(Color.CYAN);
-   myButton.setBounds(100,160,200,40);
+   myButton.setBounds(100,20,20,40);
    panel.add(myButton);
    myButton.addActionListener(this);
   
@@ -44,11 +44,12 @@ public RockPaperScissors(){
    panel.add(l1);
 
    l2= new JLabel();
-   l2.setText("Welcome to Family Feud!In this version of Family Feud, there are two levels and a death round.");
-   l2.setBounds(10,20,400,400);
+   l2.setText("Welcome to Rock, Paper, Scissors!");
+   l2.setBounds(10,60,500,40);
    panel.add(l2);
     myButton.setFocusable(false);
-    
+ 
+  
     
   
   frame.setVisible(true);
