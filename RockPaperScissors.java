@@ -17,9 +17,22 @@ import javax.swing.*;
 
 public class RockPaperScissors implements ActionListener{
 
+private static JLabel l1;
 
 public RockPaperScissors(){
-System.out.println("Works");
+
+//JPanel gamePanel= new JPanel();
+gamePanel.setLayout(null);
+JFrame gameFrame = new JFrame ("Rock,Paper,Scissors");
+gameFrame.setSize(500,250);
+gameFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+
+gameFrame.setVisible(true);
+
+l1= new JLabel();
+l1.setText("Enter your choice");
+gamePanel.add(l1);
+
 
 }
 @Override
