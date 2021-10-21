@@ -21,7 +21,7 @@ public class Welcome implements ActionListener{
   private static JButton myButton;
   
 
-public RockPaperScissors(){
+public Welcome(){
   
   JPanel panel = new JPanel();
   JFrame frame = new JFrame("Welcome");

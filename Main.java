@@ -68,7 +68,7 @@ class Main implements ActionListener {
 
     if (user.equalsIgnoreCase("Precious") && password.equalsIgnoreCase("123")|| user.equalsIgnoreCase("") && password.equalsIgnoreCase("")) {
       success.setText("Login successful!");
-      RockPaperScissors playPage = new RockPaperScissors();
+      Welcome welcomePage = new Welcome();
 
     } else {
       success.setText("Login unsuccessful:(");
