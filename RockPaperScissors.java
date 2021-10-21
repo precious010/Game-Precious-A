@@ -17,6 +17,7 @@ public class RockPaperScissors implements ActionListener{
   private static JLabel l1;
   private static JLabel l2;
   private static JLabel l3;
+  private static JLabel l4;
   private static JButton myButton;
   
 
@@ -51,11 +52,17 @@ public RockPaperScissors(){
     myButton.setFocusable(false);
 
    l3= new JLabel();
-   l3.setText("You will be playing against a computer. Your options are Rock, Paper or Scissors.");  
-   l3.setBounds(10,70,500,40);
+   l3.setText("You will be playing against a computer.");  
+   l3.setBounds(10,70,500,45);
    panel.add(l3);
   frame.setVisible(true);
-  
+   
+   l4= new JLabel();
+   l4.setText("Your options are Rock, Paper or Scissors.");  
+   l4.setBounds(10,80,500,50);
+   panel.add(l4);
+
+
   
 
 }
