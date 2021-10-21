@@ -23,7 +23,7 @@ class Main implements ActionListener {
   public static void main(String[] args) {
     JPanel panel = new JPanel();
     JFrame frame = new JFrame("Rock, Paper, Scissors!- User Login");
-    frame.setSize(350, 250);
+    frame.setSize(200, 150);
     frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
     frame.add(panel);

@@ -25,7 +25,7 @@ public Welcome(){
   
   JPanel panel = new JPanel();
   JFrame frame = new JFrame("Welcome");
-  frame.setSize(500,450);
+  frame.setSize(500,250);
   frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
   
    frame.add(panel);
