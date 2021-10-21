@@ -34,7 +34,7 @@ public Welcome(){
 
    myButton = new JButton("Next");
    myButton.setBackground(Color.CYAN);
-   myButton.setBounds(100,20,20,40);
+   myButton.setBounds(100,150,200,40);
    panel.add(myButton);
    myButton.addActionListener(this);
   
