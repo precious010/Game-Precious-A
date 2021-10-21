@@ -71,6 +71,7 @@ public Welcome(){
 @Override
 public void actionPerformed(ActionEvent e){
  JLabel l1= new JLabel();
+ RockPaperScissors play= new RockPaperScissors();
  //User user1= new User();
  //l1.setText("Hi "+ user1.getUsername());
 
